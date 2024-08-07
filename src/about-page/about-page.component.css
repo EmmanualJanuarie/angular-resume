@@ -1,0 +1,257 @@
+/* Setting image for column */
+#column_img{
+    background: url(../imgs/laptopImg.jpg) no-repeat;
+    background-size:cover;
+    position:relative;
+    left:0vw;
+}
+
+/* Setting width of column */
+.img-size{
+    width: 100vw;
+    max-width: 22vw;
+    height: 35vh;
+    object-fit: cover;
+}
+
+
+/* Setting decoration for title */
+#Title{
+    color:#014cb1; /* Setting color for text */
+    font-weight: bold;/*Setting font to bold*/
+    font-size: calc(0.5em + 1vmin);
+}
+
+/* Setting border radius for column image */
+.border-radius{
+    border-radius: 1vw;
+}
+
+/* setting the position of the columns */
+.column-container{
+    position: relative;
+    left: 30%;
+}
+
+/* setting second column position */
+#column_text{
+    position: relative;
+    left: 5%;
+    max-width: 20%;
+    bottom:0.5vw;
+}
+
+/* Setting text-decoration for subtext heading */
+#Subtitle{
+    color: black;/*setting the text color to black*/
+    font-size: calc(0.7em + 1vmin);/*setting the font size*/
+    position: relative;
+    top:3%;
+    font-weight: bold;/*setting font weight*/
+}
+
+#subtext{
+    color: gray;/*setting the text color to black*/
+    font-size: calc(0.45em + 1vmin);/*setting the font size*/
+    position: relative;
+    top:5%;
+    max-width: 600vw;
+    font-weight: bold;/*setting font weight*/
+}
+
+
+/* --------------[LAPTOP VIEWPORT SIZES]----------------- */
+/* 16 inch laptop screen size */
+@media only screen and (max-width:2100px) and (min-height: 960px){
+    #column_img{
+        background-size: 100% 100%;
+        max-width: 30vw;
+        width: 10%;
+
+        /* postioning of image */
+        position: relative;
+        top:13vw;
+        left:-10vw;
+
+    }
+
+    /* setting second column position */
+    #column_text{
+        position: relative;
+        left:-5%;
+        max-width:30vw;
+        width: 0vw;
+        top:15vw;
+    }
+}
+
+/* 11 inch laptop screen size */
+@media only screen and (max-width:1850px) and (min-height: 768px){
+    #column_img{
+        background-size: 100% 100%;
+        max-width: 30vw;
+        width: 10%;
+
+        /* postioning of image */
+        position: relative;
+        top:13vw;
+        left:-10vw;
+
+    }
+
+    /* setting second column position */
+    #column_text{
+        position: relative;
+        left:-5%;
+        max-width:30vw;
+        width: 0vw;
+        top:15vw;
+    }
+}
+
+/* ------------ [ANDRIOD TABLET - PORTRIATE]------------------- */
+/* android devices tablet - portrate  mode 3 */
+@media only screen and (max-width:1440px) and (min-height: 960px){
+    #column_img{
+        background-size: 100% 100%;
+        max-width: 100vw;
+        width: 95vw;
+
+        /* postioning of image */
+        position: relative;
+        top:13vw;
+        left:-25vw;
+    }
+
+    /* setting second column position */
+    #column_text{
+        position: relative;
+        left: -25%;
+        max-width:100vw;
+        width: max-content;
+        top:15vw;
+    }
+}
+/* android devices tablet - portrate  mode 2 */
+@media only screen and (max-width:1280px) and (min-height: 800px){
+    #column_img{
+        background-size: 100% 100%;
+        max-width: 100vw;
+        width: 95vw;
+
+        /* postioning of image */
+        position: relative;
+        top:13vw;
+        left:-25vw;
+    }
+
+    /* setting second column position */
+    #column_text{
+        position: relative;
+        left: -25%;
+        max-width:100vw;
+        width: max-content;
+        top:15vw;
+    }
+}
+/* android devices tablet - portrate  mode 1 */
+@media only screen and (max-width:960px) and (min-height: 600px){
+    #column_img{
+        background-size: 100% 100%;
+        max-width: 100vw;
+        width: 95vw;
+
+        /* postioning of image */
+        position: relative;
+        top:13vw;
+        left:-25vw;
+    }
+
+    /* setting second column position */
+    #column_text{
+        position: relative;
+        left: -25%;
+        max-width:100vw;
+        width: max-content;
+        top:15vw;
+    }
+}
+
+/* ------------ [ANDRIOD PHONE - PORTRIATE]------------------- */
+/* For android phones - portrate */
+@media only screen and (max-width:640px) and (min-height: 360px){
+    #column_img{
+        background-size: 100% 100%;
+        max-width: 100vw;
+        width: 90vw;
+
+        /* postioning of image */
+        position: relative;
+        right:6vw;
+        top:10vh;
+    }
+   
+      /* setting second column position */
+      #column_text{
+        position: relative;
+        left:-30%;
+        max-width:100vw;
+        width: max-content;
+        top:12vh;
+    }
+}
+
+/* For Iphones - portrate */
+@media only screen and (max-width:480px) and (min-height: 320px){
+    #column_img{
+        background-size: 100% 100%;
+        max-width: 100vw;
+        width: 90vw;
+
+        /* postioning of image */
+        position: relative;
+        right:6vw;
+        top:10vh;
+    }
+   
+      /* setting second column position */
+      #column_text{
+        position: relative;
+        left:-30%;
+        max-width:100vw;
+        width: max-content;
+        top:12vh;
+    }
+}
+
+/* For even small devices - phones */
+@media only screen and (max-width: 360px){
+    #column_img{
+        background-size: 100% 100%;
+        max-width: 100vw;
+        width: 95vw;
+
+        /* postioning of image */
+        position: relative;
+        left:-25vw;
+    }
+
+    /* setting second column position */
+    #column_text{
+        position: relative;
+        left: -30%;
+        max-width:100vw;
+        width: max-content;
+        top:15vw;
+    }
+}
+
+
+
+
+
+
+
+
+
+

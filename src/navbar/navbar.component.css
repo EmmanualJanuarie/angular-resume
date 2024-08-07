@@ -1,0 +1,271 @@
+/* Setting background color of navbar to white */
+nav{
+    background: #fff;
+}
+
+/* Setting color of navbar icon item */
+a.navbar-brand{
+    color: black;
+    font-weight: bold;
+}
+
+/*Setting color for paragragh tag*/
+a.nav-link{
+    color: black;
+    font-weight: bold;
+
+    /* size of font */
+    font-size: 20px;
+}
+
+/* Positioning of Nav-items */
+#nav-items{
+    position: relative;
+    left: 370%;
+}
+
+/* Positioning of Nav-bar */
+.navbar-brand{
+    position: relative;
+    left: 10%;
+}
+
+
+.Highlighted-nav-item{
+    text-shadow: gray 0px 2px 1px;
+}
+
+.navbar{
+    position: fixed;
+}
+
+.homePage-nav-item{
+    color: red;
+}
+
+/* Hide navbar-menu content on desktop */
+app-navbar-menu{
+    display: none;
+}
+
+ /*-------------- [IPAD - PORTRIATE] ---------------------------- */
+ 
+ @media only screen and (max-width:2048px) and (max-height: 1536px){
+    .navbar-brand{
+        display: block;/*hidding navbar*/
+     }
+ 
+     /* Dislay navbar-menu content on desktop */
+    app-navbar-menu{
+        display: none;
+    } 
+
+    .navbar.navbar-expand-lg{
+       background-color: transparent;
+    }
+
+    #navbarSupportedContent{
+        display: none;
+    }
+ }
+ 
+/* 16 inch laptop screen size */
+ @media only screen and (max-width:2100px) and (min-height: 960px){
+    .navbar{
+        background-color: transparent;
+    }
+
+    .navbar-brand{
+        display: block;/*hidding navbar*/
+     }
+
+     #navbarSupportedContent{
+        display: block;
+        position: relative;
+        right:20vw;
+
+        /* change font size */
+        font-size: calc(0em + 0vmin);
+     }
+ 
+     /* Dislay navbar-menu content on desktop */
+    app-navbar-menu{
+        display: none;
+        position: relative;
+        left:15vw;
+    
+    } 
+
+    .navbar.navbar-expand-lg{
+       background-color: transparent;
+    }
+ } 
+
+/* --------------[LAPTOP VIEWPORT SIZES]----------------- */
+/* 11 inch laptop screen size */
+@media only screen and (max-width:1850px) and (min-height: 768px){
+    .navbar{
+        background-color: green;
+    }
+
+    .navbar-brand{
+        display: block;/*hidding navbar*/
+     }
+
+     #navbarSupportedContent{
+        display: block;
+        position: relative;
+        right:33vw;
+
+        /* change font size */
+        font-size: calc(0em + 0vmin);
+     }
+ 
+     /* Dislay navbar-menu content on desktop */
+    app-navbar-menu{
+        display: none;
+        position: relative;
+        left:85vw;
+    
+    } 
+
+    .navbar.navbar-expand-lg{
+       background-color: transparent;
+    }
+ }
+
+/* 13 inch laptop screen size */
+@media only screen and (max-width:1700px) and (min-height: 800px){
+    .navbar{
+        background-color: transparent;
+    }
+
+    .navbar-brand{
+        display: block;/*hidding navbar*/
+     }
+
+     #navbarSupportedContent{
+        display: block;
+        position: relative;
+        right:45vw;
+
+        /* change font size */
+        font-size: calc(0em + 0vmin);
+     }
+ 
+     /* Dislay navbar-menu content on desktop */
+    app-navbar-menu{
+        display: none;
+        position: relative;
+        left:15vw;
+    
+    } 
+
+    .navbar.navbar-expand-lg{
+       background-color: transparent;
+    }
+ }
+
+
+
+/* ------------ [ANDRIOD TABLET - PORTRIATE]------------------- */
+@media only screen and (max-width:1440px) and (min-height: 960px){
+    .navbar-brand{
+        display: none;/*hidding navbar*/
+     }
+ 
+     /* Dislay navbar-menu content on desktop */
+    app-navbar-menu{
+        display: none;
+    } 
+
+    .navbar.navbar-expand-lg{
+       background-color: transparent;
+    }
+
+    
+ }
+
+ @media only screen and (max-width:1280px) and (min-height: 800px){
+    .navbar-brand{
+        display: none;/*hidding navbar*/
+     }
+ 
+     /* Dislay navbar-menu content on desktop */
+    app-navbar-menu{
+        display: none;
+    } 
+
+    .navbar.navbar-expand-lg{
+       background-color: transparent;
+    }
+
+    /* remove nav items */
+    ul#nav-items{
+        display: none;
+    }
+    
+ }
+
+
+/* android devices tablet - portrate  mode 1 */
+@media only screen and (max-width:960px) and (min-height: 600px){
+    .navbar-brand{
+        display: none;/*hidding navbar*/
+     }
+ 
+     /* Dislay navbar-menu content on desktop */
+    app-navbar-menu{
+        display: none;
+        position: relative;
+        left:0vw;
+    } 
+
+    .navbar.navbar-expand-lg{
+       background-color: transparent;
+    }
+
+    #navbarSupportedContent{
+        visibility: hidden;
+        position: relative;
+        right:45vw;
+
+        /* change font size */
+        font-size: calc(0em + 0vmin);
+     }
+ }
+
+/* ------------ [ANDRIOD PHONE - PORTRIATE]------------------- */
+/* For android phones - portrate */
+@media screen and (max-width:640px) and (min-height: 360px){
+    .navbar-brand{
+        display: none;/*hidding navbar*/
+     }
+ 
+     /* Dislay navbar-menu content on desktop */
+    app-navbar-menu{
+        display: block;
+    } 
+
+    #navbarSupportedContent{
+        display: none;
+    }
+}
+
+/* For Iphones - portrate */
+@media screen and (max-width:480px) and (min-height: 320px){
+    .navbar-brand{
+        display: none;/*hidding navbar*/
+     }
+ 
+     /* Dislay navbar-menu content on desktop */
+    app-navbar-menu{
+        display: block;
+    } 
+
+    #navbarSupportedContent{
+        display: none;
+    }
+}
+
+

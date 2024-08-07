@@ -1,0 +1,92 @@
+/*Setting html to color white*/
+html{
+    background: #ffff;
+    scroll-behavior: smooth;
+}
+
+/* You can add global styles to this file, and also import other style files
+html{
+    overflow-y:hidden;
+}
+ */
+
+ html{
+    zoom: 100vw;
+}
+
+/* For even small devices - phones */
+@media only screen and (max-width: 400px){
+    html{
+       zoom: 100%;
+    }
+
+    div.container-fluid, nav.navbar.navbar-expand-lg{
+        background-color: transparent;
+    }
+ }
+
+/* For extra small devices - phones */
+ @media only screen and (max-width: 480px){
+    html{
+        zoom: 100%;
+    }
+
+    div.container-fluid, nav.navbar.navbar-expand-lg{
+        background-color: transparent;
+    }
+ }
+
+ /* For small devices like phones, small tablets */
+ @media only screen and (max-width:720px){
+    html{
+        zoom: 100%;
+    }
+
+    div.container-fluid, nav.navbar.navbar-expand-lg{
+        background-color: transparent;
+    }
+}
+
+/* For  medium tablets */
+@media only screen and (max-width:768px){
+    html{
+        zoom: 100%;
+    }
+
+    div.container-fluid, nav.navbar.navbar-expand-lg{
+        background-color: transparent;
+    }
+}
+
+/* For large tablets */
+@media only screen and (max-width:820px){
+    html{
+        zoom: 100%;
+    }
+
+    div.container-fluid, nav.navbar.navbar-expand-lg{
+        background-color: transparent;
+    }
+}
+
+/* For  even large tablets */
+@media only screen and (max-width:1024px){
+    html{
+        zoom: 100%;
+    }
+
+    div.container-fluid, nav.navbar.navbar-expand-lg{
+        background-color: transparent;
+    }
+}
+
+/* For medium devices like Desktops */
+@media only screen and (max-width:992px){
+   
+}
+
+/* For large devices, wide screens */
+@media only screen and (max-width:1200px){
+    
+}
+

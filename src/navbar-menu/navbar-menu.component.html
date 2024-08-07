@@ -1,0 +1,47 @@
+<button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+<i appHamburgerBarHighlight #highlighter ='HamBar_hl' class="fa-solid fa-bars hamburger-bars"></i>
+  </button>
+  
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="menuBarLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title font-weight-bold font-size-m" id="menuBarLabel">Menu Bar</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+           <!-- Home page Nav item -->
+      <li class="nav-item font-size-m text-alignment-center padding-navbar">
+        <a class="nav-link" aria-current="page" href="#home" 
+        #home (click)="scrollToHomeSection()"
+        appHighlightedNavItems #highlighter = "NavItem_hl">Home</a>
+      </li>
+
+      <!-- About me Nav item -->
+      <li class="nav-item font-size-m text-alignment-center padding-navbar">
+        <a class="nav-link" aria-current="page" href="#aboutme" 
+        #aboutme (click)="scrollToAboutmeSection()" 
+        appHighlightedNavItems #highlighter = "NavItem_hl">About</a>
+      </li>
+
+      <li class="nav-item font-size-m text-alignment-center padding-navbar">
+        <a class="nav-link" aria-current="page" href="#experience"
+        #experience (click)="scrollToExperinceSection()"
+        appHighlightedNavItems #highlighter = "NavItem_hl">Experience</a>
+      </li>
+    
+      <!-- Projects Nav Item -->
+      <li class="nav-item font-size-m text-alignment-center padding-navbar">
+        <a class="nav-link" aria-current="page" href="#portfolio"
+        #portfolio (click)="scrollToPortfolioSection()"
+        appHighlightedNavItems #highlighter = "NavItem_hl">Projects</a>
+      </li>
+
+      <!-- Contact me Nav Item -->
+      <li class="nav-item font-size-m text-alignment-center padding-navbar">
+        <a class="nav-link" aria-current="page" href="#contactme" #contactme 
+        (click)="scrollToContactSection()"
+        appHighlightedNavItems #highlighter = "NavItem_hl">Contact</a>
+      </li>
+
+    </div>
+  </div>
+  

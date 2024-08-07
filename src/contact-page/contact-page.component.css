@@ -1,0 +1,621 @@
+#title{
+    color:#014cb1; /* Setting color for text */
+    font-weight: bold;/*Setting font to bold*/
+    font-size:calc(0.6em + 1vmin);
+}
+
+/* Positioning of hero body */
+.hero-body{
+    position: relative;
+    left: 26%;
+}
+
+/* Setting text color to black */
+.color-black{
+    color: black;
+}
+
+/* setting font-weight to bold */
+.font-bold{
+    font-weight: bold;
+}
+
+/* font size small */
+.font-size-s{
+    font-size: calc(0.8em + 1vmin);
+}
+/* font size medium */
+.font-size-m{
+    font-size: calc(1em + 1vmin);
+}
+
+/* font size large */
+.font-size-l{
+    font-size: calc(2em + 1vmin);
+}
+
+/* font size extra large */
+.font-size-xl{
+    font-size: calc(3em + 1vmin);
+}
+
+
+/* Seeting for text spacing */
+.txt-spacing{
+    word-spacing: 20vw;
+}
+
+
+ /* --------------[LAPTOP VIEWPORT SIZES]----------------- */
+/* 16 inch laptop screen size */
+@media only screen and (max-width:2100px) and (min-height: 960px){
+    /* movement of contact us section position */
+    section{
+     position: relative;
+     top:50vh;
+     }  
+ 
+      /* positioning of title experince */
+      #title{
+         position:relative;
+         right:10vw;
+     }
+ 
+      /* positioning of Sub-title experince */
+      #subtext{
+         position:relative;
+         right:10vw;
+     }
+ 
+      /* positioning of location and email pin icon */
+      #locationPinIcon{
+         position: relative;
+         right:10vw;
+     }
+ 
+     #emailIcon{
+         position: relative;
+         right:10vw;
+     }
+ 
+     /* Positioning of email text */
+     #emailText{
+         position: relative;
+         /* changing font-size */
+         font-size: calc(0.9em + 1vmin);
+         right:10vw;
+         bottom:0vh;
+     }
+ 
+     /* Positioning of location text */
+     #locationText{
+         position: relative;
+         /* changing font-size */
+         font-size: calc(0.9em + 1vmin);
+         right:10vw;
+         bottom:0vh;
+     }
+
+      /* movemonet of button */
+      button.button.is-dark{
+        position: relative;
+        right:10vw;
+        top:0vh;
+    }
+   
+  }
+/* 11 inch laptop screen size */
+@media only screen and (max-width:1850px) and (min-height: 768px){
+    /* movement of contact us section position */
+    section{
+     position: relative;
+     top:50vh;
+     }  
+ 
+      /* positioning of title experince */
+      #title{
+         position:relative;
+         right:10vw;
+     }
+ 
+      /* positioning of Sub-title experince */
+      #subtext{
+         position:relative;
+         right:10vw;
+     }
+ 
+      /* positioning of location and email pin icon */
+      #locationPinIcon{
+         position: relative;
+         right:10vw;
+     }
+ 
+     #emailIcon{
+         position: relative;
+         right:10vw;
+     }
+ 
+     /* Positioning of email text */
+     #emailText{
+         position: relative;
+         /* changing font-size */
+         font-size: calc(0.9em + 1vmin);
+         right:10vw;
+         bottom:0vh;
+     }
+ 
+     /* Positioning of location text */
+     #locationText{
+         position: relative;
+         /* changing font-size */
+         font-size: calc(0.9em + 1vmin);
+         right:10vw;
+         bottom:0vh;
+     }
+
+      /* movemonet of button */
+      button.button.is-dark{
+        position: relative;
+        right:10vw;
+        top:0vh;
+    }
+   
+  }
+
+/* 13 inch laptop screen size */
+@media only screen and (max-width:1700px) and (min-height: 800px){
+    /* movement of contact us section position */
+    section{
+     position: relative;
+     top:70vh;
+     }  
+ 
+      /* positioning of title experince */
+      #title{
+         position:relative;
+         right:10vw;
+     }
+ 
+      /* positioning of Sub-title experince */
+      #subtext{
+         position:relative;
+         right:10vw;
+     }
+ 
+      /* positioning of location and email pin icon */
+      #locationPinIcon{
+         position: relative;
+         right:10vw;
+     }
+ 
+     #emailIcon{
+         position: relative;
+         right:10vw;
+     }
+ 
+     /* Positioning of email text */
+     #emailText{
+         position: relative;
+         /* changing font-size */
+         font-size: calc(0.9em + 1vmin);
+         right:10vw;
+         bottom:0vh;
+     }
+ 
+     /* Positioning of location text */
+     #locationText{
+         position: relative;
+         /* changing font-size */
+         font-size: calc(0.9em + 1vmin);
+         right:10vw;
+         bottom:0vh;
+     }
+
+      /* movemonet of button */
+      button.button.is-dark{
+        position: relative;
+        right:10vw;
+        top:0vh;
+    }
+   
+  }
+
+/* ------------ [ANDRIOD TABLET - PORTRIATE]------------------- */
+/* android devices tablet - portrate  mode 3 */
+@media only screen and (max-width:1440px) and (min-height: 960px){
+    /* movement of contact us section position */
+    section{
+     position: relative;
+     top:300vh;
+     }  
+ 
+      /* positioning of title experince */
+      #title{
+         position:relative;
+         right:26vw;
+     }
+ 
+      /* positioning of Sub-title experince */
+      #subtext{
+         position:relative;
+         right:26vw;
+     }
+ 
+      /* positioning of location and email pin icon */
+      #locationPinIcon{
+         position: relative;
+         right:26vw;
+     }
+ 
+     #emailIcon{
+         position: relative;
+         right:26vw;
+     }
+ 
+     /* Positioning of email text */
+     #emailText{
+         position: relative;
+         /* changing font-size */
+         font-size: calc(0.9em + 1vmin);
+         right: 24vw;
+         bottom:0vh;
+     }
+ 
+     /* Positioning of location text */
+     #locationText{
+         position: relative;
+         /* changing font-size */
+         font-size: calc(0.9em + 1vmin);
+         right: 23vw;
+         bottom:0vh;
+     }
+
+      /* movemonet of button */
+      button.button.is-dark{
+        position: relative;
+        right:20vw;
+        top:0vh;
+    }
+   
+  } 
+
+  /* android devices tablet - portrate  mode 2 */
+  @media only screen and (max-width:1280px) and (min-height: 800px){
+    /* movement of contact us section position */
+    section{
+     position: relative;
+     top:300vh;
+     }  
+ 
+      /* positioning of title experince */
+      #title{
+         position:relative;
+         right:26vw;
+     }
+ 
+      /* positioning of Sub-title experince */
+      #subtext{
+         position:relative;
+         right:26vw;
+     }
+ 
+      /* positioning of location and email pin icon */
+      #locationPinIcon{
+         position: relative;
+         right:26vw;
+     }
+ 
+     #emailIcon{
+         position: relative;
+         right:26vw;
+     }
+ 
+     /* Positioning of email text */
+     #emailText{
+         position: relative;
+         /* changing font-size */
+         font-size: calc(0.9em + 1vmin);
+         right: 24vw;
+         bottom:0vh;
+     }
+ 
+     /* Positioning of location text */
+     #locationText{
+         position: relative;
+         /* changing font-size */
+         font-size: calc(0.9em + 1vmin);
+         right: 23vw;
+         bottom:0vh;
+     }
+
+      /* movemonet of button */
+      button.button.is-dark{
+        position: relative;
+        right:20vw;
+        top:0vh;
+    }
+   
+  }
+  
+/* android devices tablet - portrate  mode 1 */
+@media only screen and (max-width:960px) and (min-height: 600px){
+    /* movement of contact us section position */
+    section{
+     position: relative;
+     top:300vh;
+     }  
+ 
+      /* positioning of title experince */
+      #title{
+         position:relative;
+         right:26vw;
+     }
+ 
+      /* positioning of Sub-title experince */
+      #subtext{
+         position:relative;
+         right:26vw;
+     }
+ 
+      /* positioning of location and email pin icon */
+      #locationPinIcon{
+         position: relative;
+         right:26vw;
+     }
+ 
+     #emailIcon{
+         position: relative;
+         right:26vw;
+     }
+ 
+     /* Positioning of email text */
+     #emailText{
+         position: relative;
+         /* changing font-size */
+         font-size: calc(0.9em + 1vmin);
+         right: 24vw;
+         bottom:0vh;
+     }
+ 
+     /* Positioning of location text */
+     #locationText{
+         position: relative;
+         /* changing font-size */
+         font-size: calc(0.9em + 1vmin);
+         right: 23vw;
+         bottom:0vh;
+     }
+
+      /* movemonet of button */
+      button.button.is-dark{
+        position: relative;
+        right:20vw;
+        top:0vh;
+    }
+   
+  }
+
+/* ------------ [ANDRIOD PHONE - PORTRIATE]------------------- */
+/* For android phones - portrate */
+@media only screen and (max-width:640px) and (min-height: 360px){
+    /* movement of contact us section position */
+    section{
+     position: relative;
+     top:320vh;
+     }  
+ 
+      /* positioning of title experince */
+      #title{
+         position:relative;
+         right:26vw;
+     }
+ 
+      /* positioning of Sub-title experince */
+      #subtext{
+         position:relative;
+         right:26vw;
+     }
+ 
+      /* positioning of location and email pin icon */
+      #locationPinIcon{
+         position: relative;
+         right:26vw;
+     }
+ 
+     #emailIcon{
+         position: relative;
+         right:26vw;
+     }
+ 
+     /* Positioning of email text */
+     #emailText{
+         position: relative;
+         /* changing font-size */
+         font-size: calc(0.9em + 1vmin);
+         right: 24vw;
+         bottom:0vh;
+     }
+ 
+     /* Positioning of location text */
+     #locationText{
+         position: relative;
+         /* changing font-size */
+         font-size: calc(0.9em + 1vmin);
+         right: 23vw;
+         bottom:0vh;
+     }
+
+      /* movemonet of button */
+      button.button.is-dark{
+        position: relative;
+        right:0vw;
+        top:0vh;
+    }
+   
+}
+
+/* For Iphones - portrate */
+@media only screen and (max-width:480px) and (min-height: 320px){
+    /* movement of contact us section position */
+    section{
+     position: relative;
+     top:320vh;
+     }  
+ 
+      /* positioning of title experince */
+      #title{
+         position:relative;
+         right:26vw;
+     }
+ 
+      /* positioning of Sub-title experince */
+      #subtext{
+         position:relative;
+         right:26vw;
+     }
+ 
+      /* positioning of location and email pin icon */
+      #locationPinIcon{
+         position: relative;
+         right:26vw;
+     }
+ 
+     #emailIcon{
+         position: relative;
+         right:26vw;
+     }
+ 
+     /* Positioning of email text */
+     #emailText{
+         position: relative;
+         /* changing font-size */
+         font-size: calc(0.9em + 1vmin);
+         right: 24vw;
+         bottom:0vh;
+     }
+ 
+     /* Positioning of location text */
+     #locationText{
+         position: relative;
+         /* changing font-size */
+         font-size: calc(0.9em + 1vmin);
+         right: 23vw;
+         bottom:0vh;
+     }
+
+      /* movemonet of button */
+      button.button.is-dark{
+        position: relative;
+        right:0vw;
+        top:0vh;
+    }
+   
+}
+
+@media screen and (max-width: 360px){
+
+    /* movement of contact us section position */
+    section{
+       position: inherit;
+       top:370vh;
+   } 
+
+   /* positioning of title experince */
+   #title{
+       position:relative;
+       right:30vw;
+   }
+
+      /* positioning of Sub-title experince */
+      #subtext{
+       position:relative;
+       right:30vw;
+   }
+
+   /* positioning of location and email pin icon */
+   #locationPinIcon{
+       position: relative;
+       right:30vw;
+   }
+
+   #emailIcon{
+       position: relative;
+       right:30vw;
+   }
+
+   /* Positioning of email text */
+   #emailText{
+       position: relative;
+       /* changing font-size */
+       font-size: calc(0.9em + 1vmin);
+       right: 17vw;
+       bottom:3vh;
+   }
+
+   /* Positioning of location text */
+   #locationText{
+       position: relative;
+       /* changing font-size */
+       font-size: calc(1em + 1vmin);
+       right: 28vw;
+       bottom:0vh;
+   }
+
+    /* movemonet of button */
+    button.button.is-dark{
+       position: relative;
+       right:10vw;
+       top:0vh;
+   }
+}
+
+/* For even small devices - phones */
+@media only screen and (max-width: 412px) and (max-width:480px){
+  /* movement of contact us section position */
+  section{
+   position: relative;
+   top:320vh;
+   }  
+
+    /* positioning of title experince */
+    #title{
+       position:relative;
+       right:30vw;
+   }
+
+    /* positioning of Sub-title experince */
+    #subtext{
+       position:relative;
+       right:30vw;
+   }
+
+    /* positioning of location and email pin icon */
+    #locationPinIcon{
+       position: relative;
+       right:30vw;
+   }
+
+   #emailIcon{
+       position: relative;
+       right:30vw;
+   }
+
+   /* Positioning of email text */
+   #emailText{
+       position: relative;
+       /* changing font-size */
+       font-size: calc(0.9em + 1vmin);
+       right: 25vw;
+       bottom:0vh;
+   }
+
+   /* Positioning of location text */
+   #locationText{
+       position: relative;
+       /* changing font-size */
+       font-size: calc(0.9em + 1vmin);
+       right: 28vw;
+       bottom:0vh;
+   }
+ 
+}

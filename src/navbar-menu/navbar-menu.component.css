@@ -1,0 +1,238 @@
+.hamburger-bars{
+    font-size: 25px;
+}
+
+/* setting font top bold */
+.font-weight-bold{
+    font-weight: bold;
+}
+
+/* setting font size - medium */
+.font-size-m{
+    font-size: 25px;
+}
+
+.hamburger-bars-border{
+    text-shadow: gray 0px 2px 1px;
+}
+/* removing bullet points */
+li{
+    list-style-type: none;
+}
+
+/* changing the text alignment */
+.text-alignment-center{
+    text-align: center;
+}
+
+/* padding to the menu items */
+.padding-navbar{
+    padding: 20px;
+}
+
+/* Fixing resolution of menu bar for devices */
+
+/* For even small devices - phones */
+@media only screen and (max-width: 400px){
+    /* Start of zoom */
+    html{
+       zoom: 100%;
+    }
+
+    /* make the bar transparent */
+    div.container-fluid, nav.navbar.navbar-expand-lg{
+        background-color: transparent;
+    }
+
+    /* change the width of the canvas close button */
+
+    button.btn-close{
+        position: relative;
+        margin-right:20px;
+    }
+
+ }
+
+ /* --------------[LAPTOP VIEWPORT SIZES]----------------- */
+/* 11 inch laptop screen size */
+@media screen and (max-width:1850px) and (min-height: 768px){
+    /* Start of zoom */
+    html{
+     zoom: 100%;
+  }
+ 
+  /* make the bar transparent */
+  div.container-fluid, nav.navbar.navbar-expand-lg{
+      background-color: transparent;
+  }
+ 
+  /* change the width of the canvas close button */
+ 
+  /* button.btn-close{
+      position: relative;
+      left:40vw;
+  } */
+ 
+  #offcanvasExample{
+      max-width: 100vw;
+      width: 10vw;
+  }
+ 
+  }
+
+ /* ------------ [ANDRIOD TABLET - PORTRIATE]------------------- */
+  /* android devices tablet - portrate  mode 3 */
+  @media only screen and (max-width:1440px) and (min-height: 960px){
+    /* Start of zoom */
+    html{
+       zoom: 100%;
+    }
+
+    /* make the bar transparent */
+    div.container-fluid, nav.navbar.navbar-expand-lg{
+        background-color: transparent;
+    }
+
+    /* change the width of the canvas close button */
+
+    button.btn-close{
+        position: relative;
+        right:4vw;
+    }
+
+    #offcanvasExample{
+        max-width: 100vw;
+        width: 100vw;
+    }
+
+ }
+  /* android devices tablet - portrate  mode 2 */
+  @media only screen and (max-width:1280px) and (min-height: 800px){
+    /* Start of zoom */
+    html{
+       zoom: 100%;
+    }
+
+    /* make the bar transparent */
+    div.container-fluid, nav.navbar.navbar-expand-lg{
+        background-color: transparent;
+    }
+
+    /* change the width of the canvas close button */
+
+    button.btn-close{
+        position: relative;
+        right:4vw;
+    }
+
+    #offcanvasExample{
+        max-width: 100vw;
+        width: 100vw;
+    }
+
+ }
+
+/* android devices tablet - portrate  mode 1 */
+ @media only screen and (max-width:960px) and (min-height: 600px){
+    /* Start of zoom */
+    html{
+       zoom: 100%;
+    }
+
+    /* make the bar transparent */
+    div.container-fluid, nav.navbar.navbar-expand-lg{
+        background-color: transparent;
+    }
+
+    /* change the width of the canvas close button */
+
+    button.btn-close{
+        position: relative;
+        right:4vw;
+    }
+
+    #offcanvasExample{
+        max-width: 100vw;
+        width: 100vw;
+    }
+
+ }
+
+ /* ------------ [ANDRIOD PHONE - PORTRIATE]------------------- */
+/* For android phones - portrate */
+@media only screen and (max-width:640px) and (min-height: 360px){
+    /* Start of zoom */
+    html{
+        zoom: 100%;
+     }
+ 
+     /* make the bar transparent */
+     div.container-fluid, nav.navbar.navbar-expand-lg{
+         background-color: transparent;
+     }
+ 
+     /* change the width of the canvas close button */
+ 
+     button.btn-close{
+         position: relative;
+         right:4vw;
+     }
+ 
+     #offcanvasExample{
+         max-width: 100vw;
+         width: 100vw;
+     }
+}
+
+/* For Iphones - portrate */
+@media only screen and (max-width:480px) and (min-height: 320px){
+    /* Start of zoom */
+    html{
+        zoom: 100%;
+     }
+ 
+     /* make the bar transparent */
+     div.container-fluid, nav.navbar.navbar-expand-lg{
+         background-color: transparent;
+     }
+ 
+     /* change the width of the canvas close button */
+ 
+     button.btn-close{
+         position: relative;
+         right:4vw;
+     }
+ 
+     #offcanvasExample{
+         max-width: 100vw;
+         width: 100vw;
+     }
+}
+
+ @media only screen and (max-width: 480px){
+    /* Start of zoom */
+    html{
+       zoom: 100%;
+    }
+
+    /* make the bar transparent */
+    div.container-fluid, nav.navbar.navbar-expand-lg{
+        background-color: transparent;
+    }
+
+    /* change the width of the canvas close button */
+
+    button.btn-close{
+        position: relative;
+        right:20px;
+    }
+
+ }
+
+
+
+
+
+
+
+ 

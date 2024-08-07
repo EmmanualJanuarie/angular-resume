@@ -1,0 +1,1659 @@
+/* Setting text color to gray */
+.color-gray{
+    color: gray;
+}
+
+/* setting font-weight to bold */
+.font-bold{
+    font-weight: bold;
+}
+
+/* font size small */
+.font-size-s{
+    font-size: calc(0.9em + 1vmin);
+}
+/* font size medium */
+.font-size-m{
+    font-size: calc(0.9em + 1vmin);
+}
+
+/* font size large */
+.font-size-l{
+    font-size: calc(0.9em + 1vmin);
+}
+
+/* font size extra large */
+.font-size-xl{
+    font-size: calc(0.9em + 1vmin);
+}
+
+/* setting alignment to center */
+.align-c{
+    text-align: center;
+}
+
+/* setting width of text */
+.txt-column-width{
+    max-width: fit-content;
+    width: 32%;
+}
+
+/* settign column width */
+.column-width{
+    max-width: 100%;
+    width: 20vw;
+}
+
+/* Setting gray color border */
+.gray-border{
+    border: gray solid 3px;
+    border-radius: 20px 20px 20px;
+}
+
+/* setting the position of the columns */
+.column-container{
+    position: relative;
+    left: 15%;
+}
+
+/* setting position of right column */
+.column-pos-r{
+    position: relative;
+    left: 6%;
+}
+
+/* setting position of right column */
+.column-pos-l{
+    position: relative;
+    right: 25%;
+}
+
+
+/* .column-pos-top{
+    position: relative;
+    top:80px;
+} */
+
+/* changing color of title text */
+#title{
+    color:#014cb1; /* Setting color for text */
+    font-weight: bold;/*Setting font to bold*/
+    font-size:calc(0.6em + 1vmin);
+}
+
+/* Positioning of hero body */
+.hero-body{
+    position: relative;
+    left: 26%;
+}
+
+/* Changing size and color of text */
+#subtext{
+    color: black;/*set font color*/
+    font-size: calc(1em + 1vmin);/*change fontsize*/
+    font-weight: bold;/*set the font weight to bold*/
+}
+
+/* Setting text color to black */
+.color-black{
+    color: black;
+}
+
+/* Setting text color to gray */
+.color-gray{
+    color: gray;
+}
+
+/* Seeting for anchor text spacing */
+.a-txt-spacing{
+    word-spacing: 70vw;
+}
+
+/* position of text left */
+.text-pos-l{
+    position: relative;
+    right:18%;
+}
+
+/* position of text right */
+.text-pos-r{
+    position: relative;
+    left:2%;
+}
+
+/* javascript text position right - id */
+#jsTextRight{
+    position: relative;
+    left:11%;  
+}
+
+/* javascript icon check position right - id  */
+#jsCheckIconRight{
+    position: relative;
+    left:9%;  
+}
+
+/* SCSS text position left - id */
+#scssTextLeft{
+    position: relative;
+    right:10%;  
+}
+
+/* SCSS icon check position left - id  */
+#scssCheckIconLeft{
+    position: relative;
+    right:12%;  
+}
+
+/* Express JS text position left - id */
+#ExjsTextLeft{
+    position: relative;
+    right:6.5%;  
+}
+
+/* Express JS icon check position left - id  */
+#ExjsCheckIconLeft{
+    position: relative;
+    right:8%;  
+}
+
+/* Python text position left - id */
+#pyTextLeft{
+    position: relative;
+    right:10%;  
+}
+
+/* Pyhton icon check position left - id  */
+#pyCheckIconLeft{
+    position: relative;
+    right:12%;  
+}
+
+/* Aspn text position left - id */
+#aspnTextLeft{
+    position: relative;
+    right:16.5%;  
+}
+
+/* Aspn icon check position left - id  */
+#aspnCheckIconLeft{
+    position: relative;
+    right:18%;  
+}
+
+
+/* Swing text position left - id */
+#swingTextLeft{
+    position: relative;
+    left:1%;  
+}
+
+/* Swing icon check position left - id  */
+#swingCheckIconLeft{
+    position: relative;
+    right:2%;  
+}
+
+/* Node JS text position left - id */
+#NjsTextLeft{
+    position: relative;
+    left:2%;  
+}
+
+/* Node JS icon check position left - id  */
+#NjsCheckIconLeft{
+    position: relative;
+    right:1%;  
+}
+
+/* Typescript text position left - id */
+#tsTextLeft{
+    position: relative;
+    right:3%;  
+}
+
+/* Typescript icon check position left - id  */
+#tsCheckIconLeft{
+    position: relative;
+    right:5%;  
+}
+
+/* Material UI text position right - id */
+#MUITextLeft{
+    position: relative;
+    left:5%;  
+}
+
+/* VB icon check position right - id  */
+#MUICheckIconLeft{
+    position: relative;
+    left:2%;  
+}
+
+/* VB text position right - id */
+#vbTextLeft{
+    position: relative;
+    left:3%;  
+}
+
+/* Material UI icon check position right - id  */
+#vbCheckIconLeft{
+    position: relative;
+    left:1%;  
+}
+
+/* Java text position right - id */
+#javaTextLeft{
+    position: relative;
+    right: 8%;  
+}
+
+/* Java icon check position right - id  */
+#javaCheckIconLeft{
+    position: relative;
+    right:10%;  
+}
+
+
+/* MySQL text position right - id */
+#mngDBTextLeft{
+    position: relative;
+    left:9%;  
+}
+
+/* MySQL icon check position right - id  */
+#mngDBCheckIconLeft{
+    position: relative;
+    left:4%;  
+}
+
+/* Angular text position right - id */
+#ngTextLeft{
+    position: relative;
+    right:12%;  
+}
+
+/* Angular icon check position right - id  */
+#ngCheckIconLeft{
+    position: relative;
+    right:14%;  
+}
+
+/* position of sub-text right */
+.sub-text-pos-r{
+    position: relative;
+    left:7.5%;
+}
+
+/* position of sub-text left */
+.sub-text-pos-l{
+    position: relative;
+    right:4%;
+}
+
+.sub-text-pos-l-back{
+    position: relative;
+    right:14.5%;
+}
+
+#aspn-sub-text{
+    position: relative;
+    right:21%;
+}
+
+/* position of icon left */
+.icon-pos-l{
+    position: relative;
+    right:20%;
+}
+
+/* Position of basic Scss text*/
+.basic-text-pos-r{
+    position: relative;
+    right:18%;
+}
+
+/* Positioning of c# */
+#csIcon{
+    position: relative;
+    right:1vw;
+}
+
+#cs_Text{
+    position: relative;
+    left:0vw;
+}
+
+/* ------------------------------ */
+
+/* --------------[LAPTOP VIEWPORT SIZES]----------------- */
+/* 16 inch laptop screen size */
+@media only screen and (max-width:2100px) and (min-height: 960px){
+
+    /* positioning of title experince */
+    #title{
+        position:relative;
+        right:10vw;
+    }
+
+    /* positioning of Sub-title experince */
+    #subtext{
+        position:relative;
+        right:10vw;
+    }
+
+    /* setting max-width of column */
+    .column{
+        max-width: max-content;
+    }
+
+    /* setting positioning for two columns */
+    #deviceReps_col1{
+        position: relative;
+        max-width: 100vw;
+        width: 30vw;
+        left:-10vw;
+    }
+
+    #deviceReps_col2{
+        position: relative;
+        max-width: 100vw;
+        width: 30vw;
+        top:0vh;
+        left: 17vw;
+    }
+ }
+
+/* 11 inch laptop screen size */
+@media screen and (max-width:1850px) and (min-height: 768px){
+
+    /* positioning of title experince */
+    #title{
+        position:relative;
+        right:10vw;
+    }
+
+    /* positioning of Sub-title experince */
+    #subtext{
+        position:relative;
+        right:10vw;
+    }
+
+    /* setting max-width of column */
+    .column{
+        max-width: max-content;
+    }
+
+    /* setting positioning for two columns */
+    #deviceReps_col1{
+        position: relative;
+        max-width: 100vw;
+        width: 30vw;
+        left:-10vw;
+    }
+
+    #deviceReps_col2{
+        position: relative;
+        max-width: 100vw;
+        width: 30vw;
+        top:0vh;
+        left: 17vw;
+    }
+ }
+
+ 
+ /* ------------ [ANDRIOD TABLET - PORTRIATE]------------------- */
+  /* android devices tablet - portrate  mode 3 */
+  @media screen and (max-width:1440px) and (min-height: 960px){
+
+    /* positioning of title experince */
+    #title{
+        position:relative;
+        right:27vw;
+    }
+
+    /* positioning of Sub-title experince */
+    #subtext{
+        position:relative;
+        right:27vw;
+    }
+
+    /* setting max-width of column */
+    .column{
+        max-width: max-content;
+    }
+
+    /* setting positioning for two columns */
+    #deviceReps_col1{
+        position: relative;
+        max-width: 100vw;
+        width: 80vw;
+        left:-25vw;
+    }
+
+    #deviceReps_col2{
+        position: relative;
+        max-width: 100vw;
+        width: 80vw;
+        top:47vh;
+        left: -86vw;
+    }
+
+    /* Positioning of javascript text and icon */
+    #jsTextRight{
+        position: relative;
+        left:6.5vw;
+    }
+
+    #jsCheckIconRight{
+        position: relative;
+        left:4vw;
+    }
+
+     /* Positioning of Material UI text and icon */
+     #MUITextLeft{
+        position: relative;
+        left:3vw;
+    }
+
+    #MUICheckIconLeft{
+        position: relative;
+        right:3vw;
+    }
+
+     /* Positioning of Html text and icon */
+     #htmlIcon{
+        position: relative;
+        right:17.5vw;
+    }
+
+    #htmlText{
+        position: relative;
+        right:14vw;
+    }
+
+    #html_subtext{
+        position: relative;
+        right:6vw;  
+    }
+
+    /* positioning of css */
+    #cssText{
+        position: relative;
+        left: 3vw;
+    }
+
+    /* positioning of c# icon */
+    #csIcon{
+        position: relative;
+        right:2vw;
+    }
+
+    #cs_Text{
+        position: relative;
+        left:3vw;
+    }
+
+    /* Positioning of typescript text and icon */
+    #tsCheckIconLeft{
+        position: relative;
+        right:11vw;
+    }
+
+    #tsTextLeft{
+        position: relative;
+        right:8vw;
+    }
+
+    /* Positioning of php text and icon */
+    #phpText{
+        position: relative;
+        right:14vw;
+    }
+
+    #phpIcon{
+        position: relative;
+        right:23vw;
+    }
+
+     /* Positioning of java text and icon */
+     #javaTextLeft{
+        position: relative;
+        right:10vw;
+    }
+
+    #javaCheckIconLeft{
+        position: relative;
+        right:19vw;
+    }
+
+      /* Positioning of python text and icon */
+      #pyTextLeft{
+        position: relative;
+        right:10vw;
+    }
+
+    #pyCheckIconLeft{
+        position: relative;
+        right:20vw;
+    }
+
+      /* Positioning of Aspn core text and icon */
+      #aspnTextLeft{
+        position: relative;
+        right:13vw;
+    }
+
+    #aspnCheckIconLeft{
+        position: relative;
+        right:23vw;
+    }
+
+    #aspn-sub-text{
+        position: relative;
+        right:15vw;
+    }
+
+     /* Positioning of Nodejs icon */
+     #NjsCheckIconLeft{
+        position: relative;
+        right:1vw;
+    }
+
+    #NjsTextLeft{
+        position: relative;
+        left:4vw; 
+    }
+
+    /* Positioning of MangoDb icon and text */
+    #mngDBCheckIconLeft{
+        position: relative;
+        left:2vw;
+    }
+
+    #mngDBTextLeft{
+        position: relative;
+        left:6.5vw;
+    }
+
+    /* Positioning of swing */
+    #swingCheckIconLeft{
+        position: relative;
+        left: -2vw;
+    }
+
+    #swingTextLeft{
+        position: relative;
+        left: 3vw;  
+    }
+
+    /* Positioning of express js */
+    #ExjsCheckIconLeft{
+        position:relative;
+        right:18vw;
+    }
+
+    #ExjsTextLeft{
+        position:relative;
+        right:9vw;  
+    }
+
+    /* Positioning of Scss */
+    #scssCheckIconLeft{
+        position: relative;
+        right:14vw;
+    }
+
+    #scssTextLeft{
+        position: relative;
+        right:11vw; 
+    }
+
+    /* Positioning of angular */
+    #ngCheckIconLeft{
+        position: relative;
+        right:15vw;
+    }
+
+    #ngTextLeft{
+        position: relative;
+        right: 12vw;
+    }
+ 
+ }
+
+  /* android devices tablet - portrate  mode 2 */
+  @media screen and (max-width:1280px) and (min-height: 800px){
+
+    /* positioning of title experince */
+    #title{
+        position:relative;
+        right:27vw;
+    }
+
+    /* positioning of Sub-title experince */
+    #subtext{
+        position:relative;
+        right:27vw;
+    }
+
+    /* setting max-width of column */
+    .column{
+        max-width: max-content;
+    }
+
+    /* setting positioning for two columns */
+    #deviceReps_col1{
+        position: relative;
+        max-width: 100vw;
+        width: 80vw;
+        left:-25vw;
+    }
+
+    #deviceReps_col2{
+        position: relative;
+        max-width: 100vw;
+        width: 80vw;
+        top:47vh;
+        left: -86vw;
+    }
+
+    /* Positioning of javascript text and icon */
+    #jsTextRight{
+        position: relative;
+        left:6.5vw;
+    }
+
+    #jsCheckIconRight{
+        position: relative;
+        left:4vw;
+    }
+
+     /* Positioning of Material UI text and icon */
+     #MUITextLeft{
+        position: relative;
+        left:3vw;
+    }
+
+    #MUICheckIconLeft{
+        position: relative;
+        right:3vw;
+    }
+
+     /* Positioning of Html text and icon */
+     #htmlIcon{
+        position: relative;
+        right:17.5vw;
+    }
+
+    #htmlText{
+        position: relative;
+        right:14vw;
+    }
+
+    #html_subtext{
+        position: relative;
+        right:6vw;  
+    }
+
+    /* positioning of css */
+    #cssText{
+        position: relative;
+        left: 3vw;
+    }
+
+    /* positioning of c# icon */
+    #csIcon{
+        position: relative;
+        right:2vw;
+    }
+
+    #cs_Text{
+        position: relative;
+        left:3vw;
+    }
+
+    /* Positioning of typescript text and icon */
+    #tsCheckIconLeft{
+        position: relative;
+        right:11vw;
+    }
+
+    #tsTextLeft{
+        position: relative;
+        right:8vw;
+    }
+
+    /* Positioning of php text and icon */
+    #phpText{
+        position: relative;
+        right:14vw;
+    }
+
+    #phpIcon{
+        position: relative;
+        right:23vw;
+    }
+
+     /* Positioning of java text and icon */
+     #javaTextLeft{
+        position: relative;
+        right:10vw;
+    }
+
+    #javaCheckIconLeft{
+        position: relative;
+        right:19vw;
+    }
+
+      /* Positioning of python text and icon */
+      #pyTextLeft{
+        position: relative;
+        right:10vw;
+    }
+
+    #pyCheckIconLeft{
+        position: relative;
+        right:20vw;
+    }
+
+      /* Positioning of Aspn core text and icon */
+      #aspnTextLeft{
+        position: relative;
+        right:13vw;
+    }
+
+    #aspnCheckIconLeft{
+        position: relative;
+        right:23vw;
+    }
+
+    #aspn-sub-text{
+        position: relative;
+        right:15vw;
+    }
+
+     /* Positioning of Nodejs icon */
+     #NjsCheckIconLeft{
+        position: relative;
+        right:1vw;
+    }
+
+    #NjsTextLeft{
+        position: relative;
+        left:4vw; 
+    }
+
+    /* Positioning of MangoDb icon and text */
+    #mngDBCheckIconLeft{
+        position: relative;
+        left:2vw;
+    }
+
+    #mngDBTextLeft{
+        position: relative;
+        left:6.5vw;
+    }
+
+    /* Positioning of swing */
+    #swingCheckIconLeft{
+        position: relative;
+        left: -2vw;
+    }
+
+    #swingTextLeft{
+        position: relative;
+        left: 3vw;  
+    }
+
+    /* Positioning of express js */
+    #ExjsCheckIconLeft{
+        position:relative;
+        right:18vw;
+    }
+
+    #ExjsTextLeft{
+        position:relative;
+        right:9vw;  
+    }
+
+    /* Positioning of Scss */
+    #scssCheckIconLeft{
+        position: relative;
+        right:14vw;
+    }
+
+    #scssTextLeft{
+        position: relative;
+        right:11vw; 
+    }
+
+    /* Positioning of angular */
+    #ngCheckIconLeft{
+        position: relative;
+        right:15vw;
+    }
+
+    #ngTextLeft{
+        position: relative;
+        right: 12vw;
+    }
+ 
+ }
+
+/* android devices tablet - portrate  mode 1 */
+@media screen and (max-width:960px) and (min-height: 600px){
+
+    /* positioning of title experince */
+    #title{
+        position:relative;
+        right:27vw;
+    }
+
+    /* positioning of Sub-title experince */
+    #subtext{
+        position:relative;
+        right:27vw;
+    }
+
+    /* setting max-width of column */
+    .column{
+        max-width: max-content;
+    }
+
+    /* setting positioning for two columns */
+    #deviceReps_col1{
+        position: relative;
+        max-width: 100vw;
+        width: 80vw;
+        left:-25vw;
+    }
+
+    #deviceReps_col2{
+        position: relative;
+        max-width: 100vw;
+        width: 80vw;
+        top:47vh;
+        left: -86vw;
+    }
+
+    /* Positioning of javascript text and icon */
+    #jsTextRight{
+        position: relative;
+        left:6.5vw;
+    }
+
+    #jsCheckIconRight{
+        position: relative;
+        left:4vw;
+    }
+
+     /* Positioning of Material UI text and icon */
+     #MUITextLeft{
+        position: relative;
+        left:3vw;
+    }
+
+    #MUICheckIconLeft{
+        position: relative;
+        right:3vw;
+    }
+
+     /* Positioning of Html text and icon */
+     #htmlIcon{
+        position: relative;
+        right:17.5vw;
+    }
+
+    #htmlText{
+        position: relative;
+        right:14vw;
+    }
+
+    #html_subtext{
+        position: relative;
+        right:6vw;  
+    }
+
+    /* positioning of css */
+    #cssText{
+        position: relative;
+        left: 3vw;
+    }
+
+    /* positioning of c# icon */
+    #csIcon{
+        position: relative;
+        right:2vw;
+    }
+
+    #cs_Text{
+        position: relative;
+        left:3vw;
+    }
+
+    /* Positioning of typescript text and icon */
+    #tsCheckIconLeft{
+        position: relative;
+        right:11vw;
+    }
+
+    #tsTextLeft{
+        position: relative;
+        right:8vw;
+    }
+
+    /* Positioning of php text and icon */
+    #phpText{
+        position: relative;
+        right:14vw;
+    }
+
+    #phpIcon{
+        position: relative;
+        right:23vw;
+    }
+
+     /* Positioning of java text and icon */
+     #javaTextLeft{
+        position: relative;
+        right:10vw;
+    }
+
+    #javaCheckIconLeft{
+        position: relative;
+        right:19vw;
+    }
+
+      /* Positioning of python text and icon */
+      #pyTextLeft{
+        position: relative;
+        right:10vw;
+    }
+
+    #pyCheckIconLeft{
+        position: relative;
+        right:20vw;
+    }
+
+      /* Positioning of Aspn core text and icon */
+      #aspnTextLeft{
+        position: relative;
+        right:13vw;
+    }
+
+    #aspnCheckIconLeft{
+        position: relative;
+        right:23vw;
+    }
+
+    #aspn-sub-text{
+        position: relative;
+        right:15vw;
+    }
+
+     /* Positioning of Nodejs icon */
+     #NjsCheckIconLeft{
+        position: relative;
+        right:1vw;
+    }
+
+    #NjsTextLeft{
+        position: relative;
+        left:4vw; 
+    }
+
+    /* Positioning of MangoDb icon and text */
+    #mngDBCheckIconLeft{
+        position: relative;
+        left:2vw;
+    }
+
+    #mngDBTextLeft{
+        position: relative;
+        left:6.5vw;
+    }
+
+    /* Positioning of swing */
+    #swingCheckIconLeft{
+        position: relative;
+        left: -2vw;
+    }
+
+    #swingTextLeft{
+        position: relative;
+        left: 3vw;  
+    }
+
+    /* Positioning of express js */
+    #ExjsCheckIconLeft{
+        position:relative;
+        right:18vw;
+    }
+
+    #ExjsTextLeft{
+        position:relative;
+        right:9vw;  
+    }
+
+    /* Positioning of Scss */
+    #scssCheckIconLeft{
+        position: relative;
+        right:14vw;
+    }
+
+    #scssTextLeft{
+        position: relative;
+        right:11vw; 
+    }
+
+    /* Positioning of angular */
+    #ngCheckIconLeft{
+        position: relative;
+        right:15vw;
+    }
+
+    #ngTextLeft{
+        position: relative;
+        right: 12vw;
+    }
+ 
+ }
+
+ /* ------------ [ANDRIOD PHONE - PORTRIATE]------------------- */
+/* For android phones - portrate */
+@media only screen and (max-width:640px) and (min-height: 360px){
+    /* positioning of title experince */
+    #title{
+     position:relative;
+     right:26vw;
+     top:5vh;
+     }
+ 
+     /* positioning of Sub-title experince */
+     #subtext{
+         position:relative;
+         right:26vw;
+         top:5vw;
+     }
+ 
+       /* setting positioning for two columns */
+       #deviceReps_col1{
+         position: relative;
+         max-width: 100vw;
+         width: 90vw;
+         left:-27vw;
+     }
+ 
+     #deviceReps_col2{
+         position: relative;
+         max-width: 100vw;
+         width: 90vw;
+         top: 0vh;
+         left:-4vw;
+     }
+
+     /* Positioniong html */
+     /* Positioning of Html text and icon */
+     #htmlIcon{
+        position: relative;
+        right:20vw;
+    }
+
+    #htmlText{
+        position: relative;
+        right:18vw;
+    }
+
+    #html_subtext{
+        position: relative;
+        right:3vw;  
+    }
+
+    /* positioning of css */
+    #cssText{
+        position: relative;
+        left:1vw;
+    }
+
+    /* positioning of c# */
+    #cs_Text{
+        position: relative;
+        left:1vw;
+    }
+ 
+     /* positioning of scss */
+     #scssCheckIconLeft{
+         position: relative;
+         right:14vw;
+     }
+ 
+     #scssTextLeft{
+         position: relative;
+         right:12vw; 
+     }
+ 
+     /* Positioning of javascript text and icon */
+     #jsTextRight{
+         position: relative;
+         left:8vw;
+     }
+ 
+     #jsCheckIconRight{
+         position: relative;
+         left:7vw;
+     }
+ 
+     /* Positioning of typescript text and icon */
+     #tsCheckIconLeft{
+     position: relative;
+     right:9vw;
+     }
+ 
+     #tsTextLeft{
+         position: relative;
+         right:6vw;
+     }
+ 
+      /* Positioning of Material UI text and icon */
+      #MUITextLeft{
+         position: relative;
+         left:4vw;
+     }
+ 
+     #MUICheckIconLeft{
+         position: relative;
+         left:2vw;
+     }
+ 
+     /* Angular text position right - id */
+     #ngTextLeft{
+         position: relative;
+         right:12vw;  
+     }
+ 
+     /* Angular icon check position right - id  */
+     #ngCheckIconLeft{
+         position: relative;
+         right:15vw;  
+     }
+ 
+     /* Positioning of java text and icon */
+     #javaTextLeft{
+         position: relative;
+         right:10vw;
+     }
+ 
+     #javaCheckIconLeft{
+         position: relative;
+         right:17vw;
+     }
+ 
+     /* Positioning of MangoDb icon and text */
+     #mngDBCheckIconLeft{
+         position: relative;
+         left:5vw;
+     }
+ 
+     #mngDBTextLeft{
+         position: relative;
+         left:8vw;
+     }
+ 
+     /* Positioning of express js */
+     #ExjsCheckIconLeft{
+         position:relative;
+         right:15vw;
+     }
+ 
+     #ExjsTextLeft{
+         position:relative;
+         right:8vw;  
+     }
+ 
+     /* Positioning of Nodejs icon */
+     #NjsCheckIconLeft{
+         position: relative;
+         left:0vw;
+     }
+ 
+     #NjsTextLeft{
+         position: relative;
+         left:3vw; 
+     }
+ 
+     
+     /* Positioning of python text and icon */
+     #pyTextLeft{
+         position: relative;
+         right:10vw;
+     }
+ 
+     #pyCheckIconLeft{
+         position: relative;
+         right:18vw;
+     }
+
+      /* Positioning of php text and icon */
+    #phpText{
+        position: relative;
+        right:17vw;
+    }
+
+    #phpIcon{
+        position: relative;
+        right:24vw;
+    }
+
+       /* Positioning of Aspn core text and icon */
+       #aspnTextLeft{
+        position: relative;
+        right:15vw;
+    }
+
+    #aspnCheckIconLeft{
+        position: relative;
+        right:23vw;
+    }
+
+    #aspn-sub-text{
+        position: relative;
+        right:18vw;
+    }
+     
+     
+ 
+ }
+
+ /* For Iphones - portrate */
+ @media only screen and (max-width:480px) and (min-height: 320px){
+    /* positioning of title experince */
+    #title{
+     position:relative;
+     right:26vw;
+     top:5vh;
+     }
+ 
+     /* positioning of Sub-title experince */
+     #subtext{
+         position:relative;
+         right:26vw;
+         top:5vw;
+     }
+ 
+       /* setting positioning for two columns */
+       #deviceReps_col1{
+         position: relative;
+         max-width: 100vw;
+         width: 90vw;
+         left:-27vw;
+     }
+ 
+     #deviceReps_col2{
+         position: relative;
+         max-width: 100vw;
+         width: 90vw;
+         top: 0vh;
+         left:-4vw;
+     }
+
+     /* Positioniong html */
+     /* Positioning of Html text and icon */
+     #htmlIcon{
+        position: relative;
+        right:20vw;
+    }
+
+    #htmlText{
+        position: relative;
+        right:18vw;
+    }
+
+    #html_subtext{
+        position: relative;
+        right:3vw;  
+    }
+
+    /* positioning of css */
+    #cssText{
+        position: relative;
+        left:1vw;
+    }
+
+    /* positioning of c# */
+    #cs_Text{
+        position: relative;
+        left:1vw;
+    }
+ 
+     /* positioning of scss */
+     #scssCheckIconLeft{
+         position: relative;
+         right:14vw;
+     }
+ 
+     #scssTextLeft{
+         position: relative;
+         right:12vw; 
+     }
+ 
+     /* Positioning of javascript text and icon */
+     #jsTextRight{
+         position: relative;
+         left:8vw;
+     }
+ 
+     #jsCheckIconRight{
+         position: relative;
+         left:7vw;
+     }
+ 
+     /* Positioning of typescript text and icon */
+     #tsCheckIconLeft{
+     position: relative;
+     right:9vw;
+     }
+ 
+     #tsTextLeft{
+         position: relative;
+         right:6vw;
+     }
+ 
+      /* Positioning of Material UI text and icon */
+      #MUITextLeft{
+         position: relative;
+         left:4vw;
+     }
+ 
+     #MUICheckIconLeft{
+         position: relative;
+         left:2vw;
+     }
+ 
+     /* Angular text position right - id */
+     #ngTextLeft{
+         position: relative;
+         right:12vw;  
+     }
+ 
+     /* Angular icon check position right - id  */
+     #ngCheckIconLeft{
+         position: relative;
+         right:15vw;  
+     }
+ 
+     /* Positioning of java text and icon */
+     #javaTextLeft{
+         position: relative;
+         right:10vw;
+     }
+ 
+     #javaCheckIconLeft{
+         position: relative;
+         right:17vw;
+     }
+ 
+     /* Positioning of MangoDb icon and text */
+     #mngDBCheckIconLeft{
+         position: relative;
+         left:5vw;
+     }
+ 
+     #mngDBTextLeft{
+         position: relative;
+         left:8vw;
+     }
+ 
+     /* Positioning of express js */
+     #ExjsCheckIconLeft{
+         position:relative;
+         right:15vw;
+     }
+ 
+     #ExjsTextLeft{
+         position:relative;
+         right:8vw;  
+     }
+ 
+     /* Positioning of Nodejs icon */
+     #NjsCheckIconLeft{
+         position: relative;
+         left:0vw;
+     }
+ 
+     #NjsTextLeft{
+         position: relative;
+         left:3vw; 
+     }
+ 
+     
+     /* Positioning of python text and icon */
+     #pyTextLeft{
+         position: relative;
+         right:10vw;
+     }
+ 
+     #pyCheckIconLeft{
+         position: relative;
+         right:18vw;
+     }
+
+      /* Positioning of php text and icon */
+    #phpText{
+        position: relative;
+        right:17vw;
+    }
+
+    #phpIcon{
+        position: relative;
+        right:24vw;
+    }
+
+       /* Positioning of Aspn core text and icon */
+       #aspnTextLeft{
+        position: relative;
+        right:15vw;
+    }
+
+    #aspnCheckIconLeft{
+        position: relative;
+        right:23vw;
+    }
+
+    #aspn-sub-text{
+        position: relative;
+        right:18vw;
+    }
+     
+     
+ 
+ }
+
+/*Changing the size of the Experince section for mobile phones */
+@media screen and (max-width: 360px){
+
+    /* positioning of title experince */
+    #title{
+        position:relative;
+        right:31vw;
+    }
+
+       /* positioning of Sub-title experince */
+       #subtext{
+        position:relative;
+        right:31vw;
+    }
+
+    /* setting max-width of column */
+    .column{
+        max-width: max-content;
+    }
+
+    /* setting positioning for two columns */
+    #deviceReps_col1{
+        position: relative;
+        max-width: 100vw;
+        width: 97vw;
+        left:-31vw;
+    }
+
+    #deviceReps_col2{
+        position: relative;
+        max-width: 100vw;
+        width: 97vw;
+        left: -8vw;
+    }
+
+    /* Positioning of javascript text and icon */
+    #jsTextRight{
+        position: relative;
+        left:10vw;
+    }
+
+    #jsCheckIconRight{
+        position: relative;
+        left:9vw;
+    }
+
+     /* Positioning of Material UI text and icon */
+     #MUITextLeft{
+        position: relative;
+        left:5vw;
+    }
+
+    #MUICheckIconLeft{
+        position: relative;
+        right:3vw;
+    }
+
+     /* Positioning of Html text and icon */
+     #htmlIcon{
+        position: relative;
+        right:18vw;
+    }
+
+    #htmlText{
+        position: relative;
+        right:17vw;
+    }
+
+    /* positioning of c# icon */
+    #csIcon{
+        position: relative;
+        right:2vw;
+    }
+
+    /* Positioning of typescript text and icon */
+    #tsCheckIconLeft{
+        position: relative;
+        right:5vw;
+    }
+
+    #tsTextLeft{
+        position: relative;
+        right:3vw;
+    }
+
+    /* Positioning of php text and icon */
+    #phpText{
+        position: relative;
+        right:19vw;
+    }
+
+    #phpIcon{
+        position: relative;
+        right:24vw;
+    }
+
+     /* Positioning of java text and icon */
+     #javaTextLeft{
+        position: relative;
+        right:10vw;
+    }
+
+    #javaCheckIconLeft{
+        position: relative;
+        right:15vw;
+    }
+
+      /* Positioning of python text and icon */
+      #pyTextLeft{
+        position: relative;
+        right:11vw;
+    }
+
+    #pyCheckIconLeft{
+        position: relative;
+        right:17vw;
+    }
+
+      /* Positioning of Aspn core text and icon */
+      #aspnTextLeft{
+        position: relative;
+        right:20vw;
+    }
+
+    #aspnCheckIconLeft{
+        position: relative;
+        right:23vw;
+    }
+
+    #aspn-sub-text{
+        position: relative;
+        right:25vw;
+    }
+
+     /* Positioning of Nodejs icon */
+     #NjsCheckIconLeft{
+        position: relative;
+        left:0vw;
+    }
+
+    #NjsTextLeft{
+        position: relative;
+        left:3vw; 
+    }
+
+    /* Positioning of MangoDb icon and text */
+    #mngDBCheckIconLeft{
+        position: relative;
+        left:6vw;
+    }
+
+    #mngDBTextLeft{
+        position: relative;
+        left:8vw;
+    }
+
+    /* Positioning of swing */
+    #swingCheckIconLeft{
+        position: relative;
+        left: -2vw;
+    }
+
+    #swingTextLeft{
+        position: relative;
+        left: 0.1vw;  
+    }
+
+    /* Positioning of express js */
+    #ExjsCheckIconLeft{
+        position:relative;
+        right:13vw;
+    }
+
+    #ExjsTextLeft{
+        position:relative;
+        right:8vw;  
+    }
+ 
+ }
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,1079 @@
+/* changing color of title text */
+#title{
+    color:#014cb1; /* Setting color for text */
+    font-weight: bold;/*Setting font to bold*/
+    font-size:calc(0.6em + 1vmin);
+}
+
+/* Changing size and color of text */
+#subtext{
+    color: black;/*set font color*/
+    font-size: calc(1em + 1vmin);/*change fontsize*/
+    font-weight: bold;/*set the font weight to bold*/
+}
+
+/* Positioning of hero body */
+.hero-body{
+    position: relative;
+    left: 26%;
+}
+
+/* setting the image for column image */
+.column-image{
+    background: url(../imgs/no_project.jpg) no-repeat;
+    background-size: 100% 100%;
+    position:cover;
+    
+    /* Setting width of image */
+    max-width: 100vw;
+    width: 20vw;
+    height: 35.5vh;
+    object-fit: contain;
+}
+
+/* setting column position */
+.column-pos{
+    position: relative;
+    top: 3vw;
+    left:1%;
+}
+
+/* setting position of right column */
+.column-pos-r{
+    position: relative;
+    left: 6%;
+}
+
+/* Setting text color to black */
+.color-black{
+    color: black;
+}
+
+/* Setting text color to gray */
+.color-gray{
+    color: gray;
+}
+
+/* setting font-weight to bold */
+.font-bold{
+    font-weight: bold;
+}
+
+/* font size small */
+.font-size-s{
+    font-size: calc(0.7em + 1vmin);
+}
+/* font size medium */
+.font-size-m{
+    font-size: calc(1em + 1vmin);
+}
+
+/* font size large */
+.font-size-l{
+    font-size: calc(1em + 1vmin);
+}
+
+/* font size extra large */
+.font-size-xl{
+    font-size: calc(1em + 1vmin);
+}
+
+/* setting alignment to center */
+.align-c{
+    text-align: center;
+}
+
+/* setting width of text */
+.txt-column-width{
+    max-width: fit-content;
+    width: 32%;
+}
+
+/* Seeting for text spacing */
+.txt-spacing{
+    word-spacing: 1vw;
+}
+
+/* Seeting for anchor text spacing */
+.a-txt-spacing{
+    word-spacing: 2vw;
+}
+
+/* Setting project position section down */
+.pos-top{
+    position: relative;
+    top:10vw;
+}
+
+/* Setting position for farm tracking app */
+#TrackItApp{
+    position: relative;
+    top:20vw;
+}
+
+/* Setting position for barber app */
+#fresh_cuts{
+    position: relative;
+    top:30vw; 
+}
+
+
+.columns{
+    width:80%;
+}
+
+/*setting the height of portfolio section hero*/
+#portfolio{
+    height: 120vw;
+}
+
+/* --------------[LAPTOP VIEWPORT SIZES]----------------- */
+/* 16 inch laptop screen size */
+@media only screen and (max-width:2100px) and (min-height: 960px){
+   
+    /* positioning of title portfolio */
+    #title{
+        position:relative;
+        right:10vw;
+        bottom:20vh;
+    }
+
+    /* positioning of Sub-title portfolio */
+    #subtext{
+        position:relative;
+        right:10vw;
+        bottom:20vh;
+    }
+
+    /* Positioning of image column */
+    div.column-image{
+        background-size: 100% 100%;
+        position:relative;
+
+        right:8vw;
+        
+        /* Setting width of image */
+        max-width: 100vw;
+        width:30vw;
+        height: 35.5vh;
+        object-fit: contain;
+        bottom:3vw;
+    }
+
+     /* positioning of save zone image */
+     #safezoneImage{
+        position: relative;
+        right:8vw;
+        top:10vh;
+    }
+
+    /* positioning of sa flights image */
+    #SaFlightsImage{
+        position: relative;
+        left:4vw;
+        top:15vh;
+    }
+
+    /* positioning petopia column image */
+    #petopiaImage{
+        position: relative;
+        top:5vh;
+        left:3vw;
+
+    }
+
+    div.column-image.column-pos-r{
+        background-size: 100% 100%;
+        position:relative;
+
+        left:-23vw;
+        top:1020vw; /*change to correct vw
+        
+        /* Setting width of image */
+        max-width: 100vw;
+        width: 30vw;
+        height: 35vh;
+        object-fit: contain;
+    }
+
+      /* Positionig of the home horizon title */
+      #H_H_text{
+        max-width: 100vw;
+        width: 10vw;
+    }
+
+    #HomeHorizon_Col{
+        position: relative;
+        top: -7vh;
+        left: 0vw;
+        /* display:contents; */
+    }
+
+    #PetopiaText_col{
+        position: relative;
+        left: -5vw;
+        top:1vh;
+    }
+
+    #safezoneText_col{
+        position: relative;
+        left:0vw;
+        top:5vh;
+    }
+
+    #SaFlightsText_col{
+        position: relative;
+        left: -5vw;
+
+        top:13vh; 
+    }
+
+    div.columns.is-gap{
+        max-width: 500vw;
+        width: 200vw;
+    }
+
+    
+ }
+/* 11 inch laptop screen size */
+@media only screen and (max-width:1850px) and (min-height: 768px){
+   
+    /* positioning of title portfolio */
+    #title{
+        position:relative;
+        right:10vw;
+        bottom:20vh;
+    }
+
+    /* positioning of Sub-title portfolio */
+    #subtext{
+        position:relative;
+        right:10vw;
+        bottom:20vh;
+    }
+
+    /* Positioning of image column */
+    div.column-image{
+        background-size: 100% 100%;
+        position:relative;
+
+        right:8vw;
+        
+        /* Setting width of image */
+        max-width: 100vw;
+        width:30vw;
+        height: 35.5vh;
+        object-fit: contain;
+        bottom:3vw;
+    }
+
+     /* positioning of save zone image */
+     #safezoneImage{
+        position: relative;
+        right:8vw;
+        top:10vh;
+    }
+
+    /* positioning of sa flights image */
+    #SaFlightsImage{
+        position: relative;
+        left:4vw;
+        top:15vh;
+    }
+
+    /* positioning petopia column image */
+    #petopiaImage{
+        position: relative;
+        top:5vh;
+        left:3vw;
+
+    }
+
+    div.column-image.column-pos-r{
+        background-size: 100% 100%;
+        position:relative;
+
+        left:-23vw;
+        top:1020vw; /*change to correct vw
+        
+        /* Setting width of image */
+        max-width: 100vw;
+        width: 30vw;
+        height: 35vh;
+        object-fit: contain;
+    }
+
+      /* Positionig of the home horizon title */
+      #H_H_text{
+        max-width: 100vw;
+        width: 10vw;
+    }
+
+    #HomeHorizon_Col{
+        position: relative;
+        top: -7vh;
+        left: 0vw;
+        /* display:contents; */
+    }
+
+    #PetopiaText_col{
+        position: relative;
+        left: -5vw;
+        top:1vh;
+    }
+
+    #safezoneText_col{
+        position: relative;
+        left:0vw;
+        top:5vh;
+    }
+
+    #SaFlightsText_col{
+        position: relative;
+        left: -5vw;
+
+        top:13vh; 
+    }
+
+    div.columns.is-gap{
+        max-width: 500vw;
+        width: 200vw;
+    }
+
+    
+ }
+
+/* ------------ [ANDRIOD TABLET - PORTRIATE]------------------- */
+ /* android devices tablet - portrate  mode 3 */
+ @media only screen and (max-width:1440px) and (min-height: 960px){
+   
+    /* positioning of title portfolio */
+    #title{
+        position:relative;
+        right: 25vw;
+        top:10vh;
+    }
+
+    /* positioning of Sub-title portfolio */
+    #subtext{
+        position:relative;
+        right: 25vw;
+        top:10vh;
+    }
+
+    /* Positioning of image column */
+    div.column-image{
+        background-size: 100% 100%;
+        position:relative;
+
+        right:23vw;
+        
+        /* Setting width of image */
+        max-width: 100vw;
+        width: 94vw;
+        height: 35.5vh;
+        object-fit: contain;
+        top:15vw;
+    }
+
+     /* positioning of save zone image */
+     #safezoneImage{
+        position: relative;
+        right:22vw;
+        top:105vh;
+    }
+
+    /* positioning of sa flights image */
+    #SaFlightsImage{
+        position: relative;
+        left:-50vw;
+        top:195vh;
+    }
+
+    /* positioning petopia column image */
+    #petopiaImage{
+        position: relative;
+        top:105vh;
+        left:-50vw;
+
+    }
+
+    div.column-image.column-pos-r{
+        background-size: 100% 100%;
+        position:relative;
+
+        left:-23vw;
+        top:1020vw; /*change to correct vw
+        
+        /* Setting width of image */
+        max-width: 100vw;
+        width: 94vw;
+        height: 35vh;
+        object-fit: contain;
+    }
+
+      /* Positionig of the home horizon title */
+      #H_H_text{
+        max-width: 100vw;
+        width: 200vw;
+    }
+
+    #HomeHorizon_Col{
+        position: relative;
+        top: 55vh;
+        left: -77vw;
+        /* display:contents; */
+    }
+
+    #PetopiaText_col{
+        position: relative;
+        left: -1vw;
+        top:60vh;
+    }
+
+    #safezoneText_col{
+        position: relative;
+        left:-77vw;
+        top:145vh;
+    }
+
+    #SaFlightsText_col{
+        position: relative;
+        left: 1vw;
+
+        top:150vh; 
+    }
+
+    div.columns.is-gap{
+        max-width: 500vw;
+        width: 200vw;
+    }
+
+    
+ }
+
+  /* android devices tablet - portrate  mode 2 */
+@media only screen and (max-width:1280px) and (min-height: 800px){
+   
+    /* positioning of title portfolio */
+    #title{
+        position:relative;
+        right: 25vw;
+        top:10vh;
+    }
+
+    /* positioning of Sub-title portfolio */
+    #subtext{
+        position:relative;
+        right: 25vw;
+        top:10vh;
+    }
+
+    /* Positioning of image column */
+    div.column-image{
+        background-size: 100% 100%;
+        position:relative;
+
+        right:23vw;
+        
+        /* Setting width of image */
+        max-width: 100vw;
+        width: 94vw;
+        height: 35.5vh;
+        object-fit: contain;
+        top:15vw;
+    }
+
+     /* positioning of save zone image */
+     #safezoneImage{
+        position: relative;
+        right:22vw;
+        top:105vh;
+    }
+
+    /* positioning of sa flights image */
+    #SaFlightsImage{
+        position: relative;
+        left:-50vw;
+        top:195vh;
+    }
+
+    /* positioning petopia column image */
+    #petopiaImage{
+        position: relative;
+        top:105vh;
+        left:-50vw;
+
+    }
+
+    div.column-image.column-pos-r{
+        background-size: 100% 100%;
+        position:relative;
+
+        left:-23vw;
+        top:1020vw; /*change to correct vw
+        
+        /* Setting width of image */
+        max-width: 100vw;
+        width: 94vw;
+        height: 35vh;
+        object-fit: contain;
+    }
+
+      /* Positionig of the home horizon title */
+      #H_H_text{
+        max-width: 100vw;
+        width: 200vw;
+    }
+
+    #HomeHorizon_Col{
+        position: relative;
+        top: 55vh;
+        left: -77vw;
+        /* display:contents; */
+    }
+
+    #PetopiaText_col{
+        position: relative;
+        left: -1vw;
+        top:60vh;
+    }
+
+    #safezoneText_col{
+        position: relative;
+        left:-77vw;
+        top:145vh;
+    }
+
+    #SaFlightsText_col{
+        position: relative;
+        left: 1vw;
+
+        top:150vh; 
+    }
+
+    div.columns.is-gap{
+        max-width: 500vw;
+        width: 200vw;
+    }
+
+    
+ }
+
+/* android devices tablet - portrate  mode 1 */
+@media only screen and (max-width:960px) and (min-height: 600px){
+   
+    /* positioning of title portfolio */
+    #title{
+        position:relative;
+        right: 25vw;
+        top:10vh;
+    }
+
+    /* positioning of Sub-title portfolio */
+    #subtext{
+        position:relative;
+        right: 25vw;
+        top:10vh;
+    }
+
+    /* Positioning of image column */
+    div.column-image{
+        background-size: 100% 100%;
+        position:relative;
+
+        right:23vw;
+        
+        /* Setting width of image */
+        max-width: 100vw;
+        width: 94vw;
+        height: 35.5vh;
+        object-fit: contain;
+        top:15vw;
+    }
+
+     /* positioning of save zone image */
+     #safezoneImage{
+        position: relative;
+        right:22vw;
+        top:105vh;
+    }
+
+    /* positioning of sa flights image */
+    #SaFlightsImage{
+        position: relative;
+        left:-50vw;
+        top:195vh;
+    }
+
+    /* positioning petopia column image */
+    #petopiaImage{
+        position: relative;
+        top:105vh;
+        left:-50vw;
+
+    }
+
+    div.column-image.column-pos-r{
+        background-size: 100% 100%;
+        position:relative;
+
+        left:-23vw;
+        top:1020vw; /*change to correct vw
+        
+        /* Setting width of image */
+        max-width: 100vw;
+        width: 94vw;
+        height: 35vh;
+        object-fit: contain;
+    }
+
+      /* Positionig of the home horizon title */
+      #H_H_text{
+        max-width: 100vw;
+        width: 200vw;
+    }
+
+    #HomeHorizon_Col{
+        position: relative;
+        top: 55vh;
+        left: -77vw;
+        /* display:contents; */
+    }
+
+    #PetopiaText_col{
+        position: relative;
+        left: -1vw;
+        top:60vh;
+    }
+
+    #safezoneText_col{
+        position: relative;
+        left:-77vw;
+        top:145vh;
+    }
+
+    #SaFlightsText_col{
+        position: relative;
+        left: 1vw;
+
+        top:150vh; 
+    }
+
+    div.columns.is-gap{
+        max-width: 500vw;
+        width: 200vw;
+    }
+
+    
+ }
+
+ 
+/* ------------ [ANDRIOD PHONE - PORTRIATE]------------------- */
+/* For android phones - portrate */
+@media only screen and (max-width:640px) and (min-height: 360px){
+   
+    /* positioning of title portfolio */
+    #title{
+        position:relative;
+        right: 25vw;
+        top: 0vh;
+    }
+
+    /* positioning of Sub-title portfolio */
+    #subtext{
+        position:relative;
+        right: 25vw;
+        top: 0vh;
+    }
+
+    /* Positioning of image column */
+    div.column-image{
+        background-size: 100% 100%;
+        position:relative;
+
+        right:23vw;
+        
+        /* Setting width of image */
+        max-width: 100vw;
+        width: 94vw;
+        height: 35.5vh;
+        object-fit: contain;
+        top:15vw;
+    }
+
+     /* positioning of save zone image */
+     #safezoneImage{
+        position: relative;
+        left:-22vw;
+        top:27vh;
+    }
+
+    /* positioning of sa flights image */
+    #SaFlightsImage{
+        position: relative;
+        left:-22vw;
+        top:95vw;
+    }
+
+     /* positioning petopia column image */
+     #petopiaImage{
+        position: relative;
+        left:-23vw;
+        top:25vh;
+    }
+
+    div.column-image.column-pos-r{
+        background-size: 100% 100%;
+        position:relative;
+
+        left:-23vw;
+        top:50vw;
+        
+        /* Setting width of image */
+        max-width: 100vw;
+        width: 94vw;
+        height: 35vh;
+        object-fit: contain;
+    }
+
+      /* Positionig of the home horizon title */
+      #H_H_text{
+        max-width: 100vw;
+        width: 200vw;
+    }
+
+    #HomeHorizon_Col{
+        position: relative;
+        top: 15vh;
+        left: -7vw;
+    }
+
+    #PetopiaText_col{
+        position: relative;
+        left: -7vw;
+        top:20vh;
+    }
+
+    #safezoneText_col{
+        position: relative;
+        left: -7vw;
+        top:30vh;
+    }
+
+    #SaFlightsText_col{
+        position: relative;
+        left: -7vw;
+
+        top:40vh; 
+    }
+
+    div.columns.is-gap{
+        max-width: 500vw;
+        width: 200vw;
+    }
+
+    
+ }
+
+ /* For Iphones - portrate */
+@media only screen and (max-width:480px) and (min-height: 320px){
+   
+    /* positioning of title portfolio */
+    #title{
+        position:relative;
+        right: 25vw;
+        top: 0vh;
+    }
+
+    /* positioning of Sub-title portfolio */
+    #subtext{
+        position:relative;
+        right: 25vw;
+        top: 0vh;
+    }
+
+    /* Positioning of image column */
+    div.column-image{
+        background-size: 100% 100%;
+        position:relative;
+
+        right:23vw;
+        
+        /* Setting width of image */
+        max-width: 100vw;
+        width: 94vw;
+        height: 35.5vh;
+        object-fit: contain;
+        top:15vw;
+    }
+
+     /* positioning of save zone image */
+     #safezoneImage{
+        position: relative;
+        left:-22vw;
+        top:27vh;
+    }
+
+    /* positioning of sa flights image */
+    #SaFlightsImage{
+        position: relative;
+        left:-22vw;
+        top:95vw;
+    }
+
+     /* positioning petopia column image */
+     #petopiaImage{
+        position: relative;
+        left:-23vw;
+        top:25vh;
+    }
+
+    div.column-image.column-pos-r{
+        background-size: 100% 100%;
+        position:relative;
+
+        left:-23vw;
+        top:50vw;
+        
+        /* Setting width of image */
+        max-width: 100vw;
+        width: 94vw;
+        height: 35vh;
+        object-fit: contain;
+    }
+
+      /* Positionig of the home horizon title */
+      #H_H_text{
+        max-width: 100vw;
+        width: 200vw;
+    }
+
+    #HomeHorizon_Col{
+        position: relative;
+        top: 15vh;
+        left: -7vw;
+    }
+
+    #PetopiaText_col{
+        position: relative;
+        left: -7vw;
+        top:20vh;
+    }
+
+    #safezoneText_col{
+        position: relative;
+        left: -7vw;
+        top:30vh;
+    }
+
+    #SaFlightsText_col{
+        position: relative;
+        left: -7vw;
+
+        top:40vh; 
+    }
+
+    div.columns.is-gap{
+        max-width: 500vw;
+        width: 200vw;
+    }
+
+    
+ }
+
+
+
+
+@media screen and (max-width: 360px){
+
+    /* positioning of title portfolio */
+    #title{
+        position:relative;
+        right: 30vw;
+    }
+
+    /* positioning of Sub-title portfolio */
+    #subtext{
+    position:relative;
+        right: 30vw;
+    }
+
+    /* Positioning of image column */
+    div.column-image{
+        background-size: 100% 100%;
+        position:relative;
+
+        right:25vw;
+        
+        /* Setting width of image */
+        max-width: 100vw;
+        width: 94vw;
+        height: 35.5vh;
+        object-fit: contain;
+        top:15vw;
+    }
+
+    /* positioning of save zone image */
+    #safezoneImage{
+        position: relative;
+        top:55vw;
+    }
+
+    /* positioning of sa flights image */
+    #SaFlightsImage{
+        position: relative;
+        top:87vw;
+    }
+
+    div.column-image.column-pos-r{
+        background-size: 100% 100%;
+        position:relative;
+
+        left:-25vw;
+        top:45vw;
+        
+        /* Setting width of image */
+        max-width: 100vw;
+        width: 94vw;
+        height: 35vh;
+        object-fit: contain;
+    }
+
+    /* Positionig of the home horizon title */
+    #H_H_text{
+        max-width: 100vw;
+        width: 200vw;
+    }
+
+    #HomeHorizon_Col{
+        position: relative;
+        top: 20vw;
+        left: -18vw;
+    }
+
+    #PetopiaText_col{
+        position: relative;
+        left: -18vw;
+        top:20vh;
+    }
+
+    #safezoneText_col{
+        position: relative;
+        left: -18vw;
+        top:30vh;
+    }
+
+    #SaFlightsText_col{
+        position: relative;
+        left: -18vw;
+
+        top:40vh; 
+    }
+
+    div.columns.is-gap{
+        max-width: 900%;
+        width: 900px;
+    }
+}
+
+/* For even small devices - phones */
+@media only screen and (max-width: 412px) and (max-width:480px){
+   
+    /* positioning of title portfolio */
+    #title{
+        position:relative;
+        right: 30vw;
+    }
+
+    /* positioning of Sub-title portfolio */
+    #subtext{
+    position:relative;
+        right: 30vw;
+    }
+
+    /* Positioning of image column */
+    div.column-image{
+        background-size: 100% 100%;
+        position:relative;
+
+        right:25vw;
+        
+        /* Setting width of image */
+        max-width: 100vw;
+        width: 94vw;
+        height: 35.5vh;
+        object-fit: contain;
+        top:15vw;
+    }
+
+     /* positioning of save zone image */
+     #safezoneImage{
+        position: relative;
+        top:55vw;
+    }
+
+    /* positioning of sa flights image */
+    #SaFlightsImage{
+        position: relative;
+        top:95vw;
+    }
+
+    div.column-image.column-pos-r{
+        background-size: 100% 100%;
+        position:relative;
+
+        left:-25vw;
+        top:50vw;
+        
+        /* Setting width of image */
+        max-width: 100vw;
+        width: 94vw;
+        height: 35vh;
+        object-fit: contain;
+    }
+
+      /* Positionig of the home horizon title */
+      #H_H_text{
+        max-width: 100vw;
+        width: 200vw;
+    }
+
+    #HomeHorizon_Col{
+        position: relative;
+        top: 20vw;
+        left: -7vw;
+    }
+
+    #PetopiaText_col{
+        position: relative;
+        left: -7vw;
+        top:20vh;
+    }
+
+    #safezoneText_col{
+        position: relative;
+        left: -7vw;
+        top:30vh;
+    }
+
+    #SaFlightsText_col{
+        position: relative;
+        left: -7vw;
+
+        top:40vh; 
+    }
+
+    div.columns.is-gap{
+        max-width: 500vw;
+        width: 200vw;
+    }
+
+    
+ }
+
+
+
+
+
+
