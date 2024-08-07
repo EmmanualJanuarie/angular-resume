@@ -29,6 +29,16 @@
     position: relative;
     width: 50%;
 }
+
+/* Creating responsive animation border for image */
+.img-border{
+    background: url(../imgs/imageBorder.JPG) no-repeat;
+    background-size: cover;
+    background-position: top -10px  center;
+    background-blend-mode: multiply;
+    animation: movement 8s ease-in-out infinite 1s;
+}
+
 /* Placing border around image */
 .img-border{
     border: solid black;
