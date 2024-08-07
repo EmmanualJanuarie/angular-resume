@@ -32,7 +32,7 @@
 
 /* Creating responsive animation border for image */
 .img-border{
-    background: url(../imgs/imageBorder.JPG) no-repeat;
+    /* background: url(../imgs/imageBorder.JPG) no-repeat; */
     background-size: cover;
     background-position: top -10px  center;
     background-blend-mode: multiply;
